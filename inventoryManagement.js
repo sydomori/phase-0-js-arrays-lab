@@ -1,5 +1,10 @@
 // Write your code here
-
+const products = [
+  "Laptop",
+  "Phone",
+  "Headphones",
+  "Monitor",
+]
 
 
 // Export the necessary parts for testing
