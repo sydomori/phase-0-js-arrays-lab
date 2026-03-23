@@ -10,6 +10,26 @@ function logFirstProduct(){
   console.log(products[0]);
 }
 
+function addProduct(product){
+  products.push(product);
+}
+
+addProduct("Keyboard");
+
+function updateProductName(index, newName){
+  if (index >= 0 && index < products.length) {
+    products[index] = newName;
+  }
+}
+
+updateProductName(1, "Smartphone");
+
+function removeLastProduct(){
+  products.pop();
+}
+
+removeLastProduct();
+
 
 // Export the necessary parts for testing
 module.exports = {
