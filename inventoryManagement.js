@@ -6,6 +6,10 @@ const products = [
   "Monitor",
 ]
 
+function logFirstProduct(){
+  console.log(products[0]);
+}
+
 
 // Export the necessary parts for testing
 module.exports = {
@@ -15,3 +19,5 @@ module.exports = {
   removeLastProduct: typeof removeLastProduct !== 'undefined' ? removeLastProduct : undefined,
   products
 };
+
+
